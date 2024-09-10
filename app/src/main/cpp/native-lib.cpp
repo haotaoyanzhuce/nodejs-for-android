@@ -1,7 +1,6 @@
 #include <jni.h>
 #include <string>
 #include <cstdlib>
-//#include "libnode/include/node/node.h"
 #include "node.h"
 
 #include <pthread.h>
@@ -93,11 +92,6 @@ Java_com_example_myapplication_MainActivity_startNodeWithArguments(
         currentArgsPosition += strlen(currentArgsPosition) + 1;
     }
 
-
-//    int node_result = node::Start(argumentCount, arg);
-//    free(args_buffer);
-
-//    return jint(node_result);
 
     if (start_redirecting_stdout_stderr() == -1){
         __android_log_write(ANDROID_LOG_ERROR, ADBTAG, "not start stdout/stderr to logcat");

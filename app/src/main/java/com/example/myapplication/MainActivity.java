@@ -34,15 +34,8 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("Response from server:---------------------------------- ");
                     startNodeWithArguments(new String[]{"node",
                             "/data/user/0/com.example.myapplication/files/httpTest.js"
-//                            "-e",
-//                            "console.log('22222222222222222');" +
-//                                    "var http = require('http'); " +
-//                                    "var versions_server = http.createServer( (request, response) => { " +
-//                                    "  response.end('Versions: ' + JSON.stringify(process.versions)); " +
-//                                    "}); " +
-//                                    "versions_server.listen(3000,'0.0.0.0');"
                     });
-                    System.out.println("Response from server:-111111111111111111111111111111111111111 ");
+
                 }
 
             }).start();
