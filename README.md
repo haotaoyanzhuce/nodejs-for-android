@@ -17,8 +17,9 @@ libnode.so为nodejs源码与NDK在ubuntu x64平台进行交叉编译得出。
 第三方库编译：
 编译时可能借助prebuild-for-nodejs-mobile与ndk方式实现构建
 
+
+################
 记录：
-0.0.0
 在android native c++工程中已将nodejs的log重定向到logcat中。
 利用asstes目录将文件复制到指定路径，部分格式文件可能无法安装，例如.splite。可以使用压缩包的方式，安装后解压到指定路径。
 demo阶段使用android设备可用，后续在使用redmi时出现过文件复制报错问题，
